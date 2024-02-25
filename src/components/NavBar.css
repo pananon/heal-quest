@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5%;
+  align-items: center;
+  height: 10%;
+  background-color: whitesmoke;
+  z-index: 9997;
+  border-bottom: 1px solid lightgray;
+  font-size: 1.35rem;
+}
+.homebtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
