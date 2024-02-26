@@ -3,6 +3,7 @@ import App from "./App.tsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Quest from "./components/Quest.tsx";
+import DisklHernia from "./components/DisklHernia.tsx";
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
       {
         path: "/quest",
         element: <Quest />,
+      },
+      {
+        path: "disk-hernia",
+        element: <DisklHernia />,
       },
     ],
   },
