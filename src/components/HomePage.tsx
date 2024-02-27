@@ -8,7 +8,7 @@ const HomePage = () => {
   }, []);
   return (
     <div className="home-page">
-      <h1>Path ways to heal yourself.</h1>
+      <h1>Path ways to heal yourself</h1>
       {pathWays.map((path) => {
         return (
           <Link key={path} to="/disk-hernia">
