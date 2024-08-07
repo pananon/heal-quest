@@ -7,8 +7,8 @@ const HomePage = () => {
     setPathWays(["Disc Buldge | Hernia"]);
   }, []);
   return (
-    <div className="home-page">
-      <h1>Path ways to heal yourself</h1>
+    <div className="container mx-auto">
+      <h1>Path ways to heal yourself.</h1>
       {pathWays.map((path) => {
         return (
           <Link key={path} to="/disk-hernia">
